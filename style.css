@@ -8,3 +8,27 @@ box-shadow:0 5px 15px #aaa;
 margin:15px;
 }
 </style>
+<style>
+.card{
+background:white;
+margin:15px;
+padding:20px;
+border-radius:15px;
+box-shadow:0 5px 15px #ddd;
+}
+
+.services, .appointment{
+text-align:center;
+padding:30px;
+}
+
+.button{
+display:inline-block;
+margin:10px;
+background:#00a8e8;
+color:white;
+padding:12px 25px;
+border-radius:25px;
+text-decoration:none;
+}
+</style>
