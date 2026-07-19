@@ -2,73 +2,109 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial,sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 body{
-    background:#f4f9ff;
+    background:#f5fbff;
     color:#333;
 }
 
 header{
-    background:#0077cc;
-    color:#fff;
-    padding:20px;
-    text-align:center;
-}
-
-nav{
-    margin-top:15px;
-}
-
-nav a{
+    background:#159ee8;
     color:white;
-    text-decoration:none;
-    margin:0 15px;
-    font-weight:bold;
+    text-align:center;
+    padding:35px 15px;
+}
+
+header h1{
+    font-size:38px;
+    margin-bottom:10px;
 }
 
 .hero{
     text-align:center;
-    padding:80px 20px;
-    background:#eaf6ff;
+    padding:60px 20px;
+    background:white;
 }
 
 .hero h2{
-    font-size:40px;
-    color:#0077cc;
+    color:#087cc1;
+    font-size:30px;
+    margin-bottom:15px;
 }
 
 .hero p{
-    margin:20px 0;
     font-size:18px;
+    margin-bottom:25px;
 }
 
 .btn{
     display:inline-block;
-    background:#0077cc;
+    background:#159ee8;
     color:white;
-    padding:12px 25px;
+    padding:12px 30px;
+    border-radius:25px;
     text-decoration:none;
-    border-radius:5px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#056da8;
 }
 
 section{
-    padding:60px 20px;
+    padding:40px 20px;
     text-align:center;
+}
+
+section h2{
+    color:#087cc1;
+    margin-bottom:25px;
 }
 
 .card{
     background:white;
-    padding:20px;
-    margin:15px;
+    margin:15px auto;
+    padding:25px;
+    max-width:400px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card h3{
+    color:#159ee8;
+    margin-bottom:10px;
+}
+
+.services ul{
+    list-style:none;
+}
+
+.services li{
+    background:white;
+    margin:10px auto;
+    padding:15px;
+    max-width:350px;
     border-radius:10px;
-    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    box-shadow:0 3px 10px rgba(0,0,0,0.08);
 }
 
 footer{
-    background:#0077cc;
+    background:#087cc1;
     color:white;
     text-align:center;
     padding:20px;
+}
+
+@media(max-width:600px){
+
+header h1{
+    font-size:28px;
+}
+
+.hero h2{
+    font-size:24px;
+}
+
 }
